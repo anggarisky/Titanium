@@ -1,0 +1,315 @@
+@import 'color';
+
+.dark-green {
+	color: $dark-green;
+}
+
+.silver-color {
+	color: #cacaca;
+}
+
+.yellow-color {
+	color: $yellow-color;
+}
+
+.soft-green {
+	color: $soft-green;
+}
+
+.black-color {
+	color: $black-color;
+}
+
+@media screen and (max-width: 375px) {
+	.navbar-collapse {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (min-width: 375px) {
+	.navbar-collapse {
+		border-top: 0;
+	}
+}
+
+.navbar-style {
+	border: 0;
+	border-radius: 0;
+	min-height: 80px;
+	.navbar-collapse {
+		// margin-top: 30px;
+	}
+	.navbar-toggle {
+		margin-top: 20px;
+	}
+	.form-group {
+		.search-form {
+			border: 0;
+			border-radius: 0;
+			border-bottom: 1px solid #f2f2f2;
+			width: 300px !important;
+			margin-right: 10px;
+			background: none;
+			color: #fff;
+			// &::-webkit-input-placeholder {
+			//    color: #fff;
+			// }
+		}
+	}
+	.dropdown-menu {
+		border: 0;
+		background: white;
+		border-radius: 3px;
+		width: 320px !important;
+		// background: $dark-green;
+	}
+	.navbar-right {
+		margin-top: 13px;
+		li {
+			a {
+				color: $dark-green;
+				// &:hover {
+				// 	text-decoration: underline;
+				// }
+			}
+		}
+	}
+}
+
+.carousel-style {
+	margin-top: -20px;
+	.carousel-control {
+		background-image: none;
+	}
+	.carousel-indicators {
+		.active {
+			background: $dark-green;
+		}
+	}
+}
+
+.single-product {
+	margin-bottom: 100px;
+	.gallery {
+		.btn-dismiss-modal {
+			opacity: 0.5;
+			position: absolute;
+			right: 15px;
+			top: 0;
+		}
+		.img-large {
+			height: 450px;
+			width: 100%;
+		}
+		.wow {
+			&:hover {
+				.btn-modal-large {
+					opacity: 1;
+				}
+			}
+		}
+		.btn-modal-large {
+			opacity: 0;
+			transition: all 1s;
+			position: absolute;
+			z-index: 10;
+			left: 35%;
+			top: 30%;
+			margin-top: 20px;
+			color: #fff;
+			background: $dark-green;
+			border: $dark-green;
+			transition: all 1s;
+			&:hover {
+				opacity: 0.8;
+				transition: all 1s;
+			}
+		}
+	}
+	.btn-submit-form-contact {
+		margin-top: 20px;
+		color: #fff;
+		background: $dark-green;
+		border: $dark-green;
+		transition: all 1s;
+		&:hover {
+			opacity: 0.8;
+			transition: all 1s;
+		}
+	}
+	.title-product {
+		font-weight: normal;
+		color: $dark-green;
+		margin-top: -5px;
+		margin-bottom: 20px;
+	}
+	.deskripsi-product {
+		color: #777777;
+		font-weight: normal;
+	}
+	.btn-inquiry {
+		width: 100%;
+		border-radius: 0;
+		background: $dark-green;
+		border: $dark-green;
+		padding: 15px 0 15px 0;
+		margin-top: 10px;
+	}
+}
+
+.home-row {
+	margin-top: 5px;
+	.btn-request {
+		background: $dark-green;
+			border: $dark-green;
+			transition: all 1s;
+			color: white;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			&:hover {
+				opacity: 0.8;
+				transition: all 1s;
+			}
+	}
+	.nav-tabs > li, .nav-pills > li {
+	    float:none;
+	    display:inline-block;
+	    *display:inline; /* ie7 fix */
+	     zoom:1; /* hasLayout ie7 trigger */
+	}
+
+	.nav-tabs, .nav-pills {
+	    text-align:center;
+	}
+	.panel{border-bottom:0;
+	border-left:0;
+	border-right:0;}
+	.panel.with-nav-tabs .panel-heading{
+	    padding: 5px 5px 0 5px;
+	}
+	.panel.with-nav-tabs .nav-tabs{
+		border-bottom: none;
+	}
+	.panel.with-nav-tabs .nav-justified{
+		margin-bottom: -1px;
+	}
+	/********************************************************************/
+	/*** PANEL PRIMARY ***/
+	.with-nav-tabs.panel-primary .nav-tabs > li > a,
+	.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+	.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+	    color: #fff;
+	}
+	.with-nav-tabs.panel-primary .nav-tabs > .open > a,
+	.with-nav-tabs.panel-primary .nav-tabs > .open > a:hover,
+	.with-nav-tabs.panel-primary .nav-tabs > .open > a:focus,
+	.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+	.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+		color: #fff;
+		background-color: $dark-green;
+		border-color: transparent;
+	}
+	.with-nav-tabs.panel-primary .nav-tabs > li.active > a,
+	.with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover,
+	.with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus {
+		color: #428bca;
+		background-color: $dark-green;
+		border-color: #428bca;
+		border-bottom-color: transparent;
+	}
+	.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu {
+	    background-color: #428bca;
+	    border-color: #3071a9;
+	}
+	.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a {
+	    color: #fff;   
+	}
+	.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+	.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+	    background-color: $dark-green;
+	}
+	.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a,
+	.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
+	.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+	    background-color: $dark-green;
+	}
+	/********************************************************************/
+
+	.product-tabs {
+		// border-bottom: $dark-green;
+		// a {
+		// 	color: $dark-green;
+		// }
+		// .active a {
+		// 	// border: $dark-green;
+		// 	background: $dark-green;
+		// 	color: white;
+		// 	&:hover,
+		// 	&:focus {
+		// 		background: $dark-green;
+		// 		color: white;
+		// 	}
+		// }
+	}
+	.caption {
+		// background: black;
+		width: 100%;
+		height: auto;
+		position: absolute;
+		z-index: 10;
+		top: 33%;
+		left: 0;
+		h4,
+		h2 {
+			color: white;
+			text-shadow: 2px 2px 8px $black-color;
+		}
+		.btn-primary {
+			background: $dark-green;
+			border: $dark-green;
+			transition: all 1s;
+			&:hover {
+				opacity: 0.8;
+				transition: all 1s;
+			}
+		}
+	}
+	.item {
+		margin-bottom: 4px;
+		img {
+			position: relative;
+		}
+	}
+	.col-md-3 {
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	.col-md-12 {
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+}
+
+.footer-style {
+	background: $dark-green;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	.nav-pills {
+		li {
+			padding-left: 5px;
+			a {
+				border-radius: 3px;
+				padding: 5px 10px;
+			}
+		}
+		.active {
+			a {
+				background: $soft-green;
+			}
+		}
+	}
+	p {
+		margin-top: 10px;
+		color: white;
+	}
+}
