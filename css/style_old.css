@@ -1,0 +1,204 @@
+.dark-green {
+  color: #355f6f; }
+
+.silver-color {
+  color: #cacaca; }
+
+.yellow-color {
+  color: #f1c40f; }
+
+.soft-green {
+  color: #347188; }
+
+.black-color {
+  color: #202020; }
+
+@media screen and (max-width: 375px) {
+  .navbar-collapse {
+    margin-top: 20px; } }
+@media screen and (min-width: 375px) {
+  .navbar-collapse {
+    border-top: 0; } }
+.navbar-style {
+  border: 0;
+  border-radius: 0;
+  min-height: 80px; }
+  .navbar-style .navbar-toggle {
+    margin-top: 20px; }
+  .navbar-style .form-group .search-form {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #f2f2f2;
+    width: 300px !important;
+    margin-right: 10px;
+    background: none;
+    color: #fff; }
+  .navbar-style .dropdown-menu {
+    border: 0;
+    background: white;
+    border-radius: 3px;
+    width: 320px !important; }
+  .navbar-style .navbar-right {
+    margin-top: 13px; }
+    .navbar-style .navbar-right li a {
+      color: #355f6f; }
+
+.carousel-style {
+  margin-top: -20px; }
+  .carousel-style .carousel-control {
+    background-image: none; }
+  .carousel-style .carousel-indicators .active {
+    background: #355f6f; }
+
+.single-product {
+  margin-bottom: 100px; }
+  .single-product .gallery .btn-dismiss-modal {
+    opacity: 0.5;
+    position: absolute;
+    right: 15px;
+    top: 0; }
+  .single-product .gallery .img-large {
+    height: 450px;
+    width: 100%; }
+  .single-product .gallery .wow:hover .btn-modal-large {
+    opacity: 1; }
+  .single-product .gallery .btn-modal-large {
+    opacity: 0;
+    transition: all 1s;
+    position: absolute;
+    z-index: 10;
+    left: 35%;
+    top: 30%;
+    margin-top: 20px;
+    color: #fff;
+    background: #355f6f;
+    border: #355f6f;
+    transition: all 1s; }
+    .single-product .gallery .btn-modal-large:hover {
+      opacity: 0.8;
+      transition: all 1s; }
+  .single-product .btn-submit-form-contact {
+    margin-top: 20px;
+    color: #fff;
+    background: #355f6f;
+    border: #355f6f;
+    transition: all 1s; }
+    .single-product .btn-submit-form-contact:hover {
+      opacity: 0.8;
+      transition: all 1s; }
+  .single-product .title-product {
+    font-weight: normal;
+    color: #355f6f;
+    margin-top: -5px;
+    margin-bottom: 20px; }
+  .single-product .deskripsi-product {
+    color: #777777;
+    font-weight: normal; }
+  .single-product .btn-inquiry {
+    width: 100%;
+    border-radius: 0;
+    background: #355f6f;
+    border: #355f6f;
+    padding: 15px 0 15px 0;
+    margin-top: 10px; }
+
+.home-row {
+  margin-top: 5px;
+  /********************************************************************/
+  /*** PANEL PRIMARY ***/
+  /********************************************************************/ }
+  .home-row .nav-tabs > li, .home-row .nav-pills > li {
+    float: none;
+    display: inline-block;
+    *display: inline;
+    /* ie7 fix */
+    zoom: 1;
+    /* hasLayout ie7 trigger */ }
+  .home-row .nav-tabs, .home-row .nav-pills {
+    text-align: center; }
+  .home-row .panel {
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0; }
+  .home-row .panel.with-nav-tabs .panel-heading {
+    padding: 5px 5px 0 5px; }
+  .home-row .panel.with-nav-tabs .nav-tabs {
+    border-bottom: none; }
+  .home-row .panel.with-nav-tabs .nav-justified {
+    margin-bottom: -1px; }
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > li > a,
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+    color: #fff; }
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > .open > a,
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > .open > a:hover,
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > .open > a:focus,
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+    color: #fff;
+    background-color: #355f6f;
+    border-color: transparent; }
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > li.active > a,
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover,
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus {
+    color: #428bca;
+    background-color: #355f6f;
+    border-color: #428bca;
+    border-bottom-color: transparent; }
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu {
+    background-color: #428bca;
+    border-color: #3071a9; }
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a {
+    color: #fff; }
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+    background-color: #355f6f; }
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a,
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
+  .home-row .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+    background-color: #355f6f; }
+  .home-row .caption {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 10;
+    top: 33%;
+    left: 0; }
+    .home-row .caption h4,
+    .home-row .caption h2 {
+      color: white;
+      text-shadow: 2px 2px 8px #202020; }
+    .home-row .caption .btn-primary {
+      background: #355f6f;
+      border: #355f6f;
+      transition: all 1s; }
+      .home-row .caption .btn-primary:hover {
+        opacity: 0.8;
+        transition: all 1s; }
+  .home-row .item {
+    margin-bottom: 4px; }
+    .home-row .item img {
+      position: relative; }
+  .home-row .col-md-3 {
+    padding-left: 2px;
+    padding-right: 2px; }
+  .home-row .col-md-12 {
+    padding-left: 2px;
+    padding-right: 2px; }
+
+.footer-style {
+  background: #355f6f;
+  padding-top: 20px;
+  padding-bottom: 15px; }
+  .footer-style .nav-pills li {
+    padding-left: 5px; }
+    .footer-style .nav-pills li a {
+      border-radius: 3px;
+      padding: 5px 10px; }
+  .footer-style .nav-pills .active a {
+    background: #347188; }
+  .footer-style p {
+    margin-top: 10px;
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */
