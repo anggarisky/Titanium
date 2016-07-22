@@ -19,6 +19,16 @@
 @media screen and (min-width: 375px) {
   .navbar-collapse {
     border-top: 0; } }
+@media screen and (max-width: 414px) {
+  .news-description {
+    display: none; }
+
+  .news-img {
+    height: 80px;
+    width: 80px; }
+
+  .news-promo-img {
+    height: 300px; } }
 .navbar-style {
   border: 0;
   border-radius: 0;
@@ -52,6 +62,17 @@
 
 .single-product {
   margin-bottom: 100px; }
+  .single-product .panel-news {
+    border: 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+    .single-product .panel-news li {
+      display: block; }
+  .single-product .panel {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+    .single-product .panel .panel-footer {
+      display: none; }
   .single-product .gallery .btn-dismiss-modal {
     opacity: 0.5;
     position: absolute;
@@ -107,16 +128,6 @@
   /********************************************************************/
   /*** PANEL PRIMARY ***/
   /********************************************************************/ }
-  .home-row .btn-request {
-    background: #355f6f;
-    border: #355f6f;
-    transition: all 1s;
-    color: white;
-    margin-top: 10px;
-    margin-bottom: 10px; }
-    .home-row .btn-request:hover {
-      opacity: 0.8;
-      transition: all 1s; }
   .home-row .nav-tabs > li, .home-row .nav-pills > li {
     float: none;
     display: inline-block;
